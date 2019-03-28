@@ -40,7 +40,7 @@ app.post('/Api', (req, res)=> {image.ApiCall(req, res)})
 
 
 
-app.listen(3000, ()=> {
-	console.log('Hello, im listening to you!')
+app.listen(process.env.PORT || 3000, ()=> {
+	console.log(`Hello, im listening to ${process.env.PORT}!`)
 })
 
