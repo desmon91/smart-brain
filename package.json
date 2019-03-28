@@ -1,13 +1,22 @@
 {
   "name": "smart-brain-api",
   "version": "1.0.0",
+  "description": "smart bratin app",
   "main": "server.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/desmon91/smart-brain-api.git"
   },
   "author": "",
   "license": "ISC",
-  "description": "",
+  "bugs": {
+    "url": "https://github.com/desmon91/smart-brain-api/issues"
+  },
+  "homepage": "https://github.com/desmon91/smart-brain-api#readme",
   "devDependencies": {
     "nodemon": "^1.18.10"
   },
